@@ -1,25 +1,193 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <title>Bootstrap Example</title>
+    <title>TechSite</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+    <!-- reset css -->
+    <link rel="stylesheet" href="style/normalize.css">
+    <!-- BootStrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Custom Css - My on modiffications -->
+    <link rel="stylesheet" href="style/custom.css">
 </head>
 
 <body>
 
-    <div class="container">
-        <header class="row">
-            <div class="col-md-3">
-                <h3>TechSite</h3>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="logo navbar-brand " href="#"><img class="img_logo" src="img/techsite.png" alt="Logo"></a>
             </div>
-            <div class="col-md-3">aa</div>
-        </header>
-    </div>
+            <ul class="nav navbar-nav">
+                <li class="link_nav"><a href="#">Sobre</a></li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li class="link_nav"><a href="#">Planos</a></li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li class="link_nav"><a href="#">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="mainsection">
+        <article class="container">
+            <h2 class="titulo_main">Desenvolvimento Àgil</h2>
+            <p class="paragrafo_main">TechSite utiliza de meios eficientes desenvolvimento de software sobre demanda, fazemos treinamentos e prestamos manutenções preventivas.</p>
+
+            <button class="btn-info btn_planos">Nossos Planos</button>
+        </article>
+    </section>
+    <section class="Sobrepanel">
+        <article class="container About">
+            <h2 class="text-center">Sobre</h2>
+            <p>
+                Sed facilisis, mauris sed lacinia imperdiet, risus tellus tincidunt turpis, ac pellentesque lectus tellus sed nibh. Cras eu fringilla elit. Donec ornare erat dignissim felis eleifend, id pharetra mi dapibus. Nulla bibendum, velit vel pellentesqueconsequat,
+                tellus elit lacinia ex, eget mollis tortor lacus eSed facilisis, mauris sed lacinia imperdiet, risus tellus tincidunt turpis, ac pellentesque lectus tellus sed nibh. Cras eu fringilla elit. Donec ornare erat dignissim feliseleifend, id
+                pharetra mi dapibus. Nulla bibendum, velit vel pellentesque consequat, tellus elit lacinia ex, eget mollis tortor lacus e
+            </p>
+            <h4>Diferencial</h4>
+            <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis consectetur imperdiet libero dignissim hendrerit. Phasellus at ante velOrci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus. Duis consectetur imperdiet libero dignissim hendrerit. Phasellus at ante vel</p>
+        </article>
+    </section>
+    <section class="section_planos">
+        <article class="container">
+            <h2 class="text-center tituloPlano">Planos</h2>
+            <section class="col-md-4 tablessection">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Plano Simples</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Suporte 24/7<span class="glyphicon glyphicon-ok"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Manutenção agendada<span class="glyphicon glyphicon-remove"></span></td>
+                            </tr>
+                            <tr>
+                                <td>SEO<span class="glyphicon glyphicon-remove"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Atendimento VIP<span class="glyphicon glyphicon-remove"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Redundância<span class="glyphicon glyphicon-remove"></span></td>
+                            </tr>
+                            <tr>
+                                <td>R$ 15,90</td>
+                            </tr>
+                            <tr>
+                                <td><a class="btn-comprar">Comprar</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="col-md-4 tablessection">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Plano Médio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Suporte 24/7<span class="glyphicon glyphicon-ok"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Manutenção agendada<span class="glyphicon glyphicon-ok"></span></td>
+                            </tr>
+                            <tr>
+                                <td>SEO<span class="glyphicon glyphicon-remove"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Atendimento VIP<span class="glyphicon glyphicon-remove"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Redundância<span class="glyphicon glyphicon-remove"></span></td>
+                            </tr>
+                            <tr>
+                                <td>R$ 15,90</td>
+                            </tr>
+                            <tr>
+                                <td><a class="btn-comprar">Comprar</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <div class="col-md-4 tablessection">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Plano Médio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Suporte 24/7<span class="glyphicon glyphicon-ok"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Manutenção agendada<span class="glyphicon glyphicon-ok"></span></td>
+                            </tr>
+                            <tr>
+                                <td>SEO<span class="glyphicon glyphicon-ok"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Atendimento VIP<span class="glyphicon glyphicon-ok"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Redundância<span class="glyphicon glyphicon-ok"></span></td>
+                            </tr>
+                            <tr>
+                                <td>R$ 15,90</td>
+                            </tr>
+                            <tr>
+                                <td><a class="btn-comprar">Comprar</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section>
+        <article class="container contatoform">
+            <h2 class="text-center">Contato</h2>
+            <form action="/action_page.php">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address:</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" class="form-control" id="assunto">
+                </div>
+                <div class="form-group">
+                    <label for="conteudo">Conteúdo:</label><br>
+                    <textarea class="form-control" name="bconteudo" id="conteudo" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit" class="btn btn-default">Enviar</button>
+            </form>
+        </article>
+    </section>
 
 </body>
 
